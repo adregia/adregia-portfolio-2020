@@ -3,11 +3,12 @@
   flex-direction: column;
   justify-content: center;
   height: 90vh;
-  min-height: 500px;
+  min-height: fit-content;
   padding: 0px 50px;
 }
 
 .img {
+  height: 256px;
   border-radius: 25%;
 }
 
@@ -39,6 +40,15 @@
 }
 
 @media only screen and (max-width: 640px) {
+  .container {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+
+  .img {
+    height: 100px;
+  }
+
   .shape {
     width: 100%;
   }
@@ -53,5 +63,9 @@
 
   .text > h3 {
     color: white !important;
+  }
+
+  .extra {
+    display: none;
   }
 }

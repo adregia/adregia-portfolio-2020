@@ -11,7 +11,6 @@ export default function Banner({ id }) {
         <div className={styles.shape} />
         <div className={styles.row}>
           <img
-            height={265}
             src="/images/ahmed.jpg"
             alt=""
             className={styles.img}
@@ -26,17 +25,17 @@ export default function Banner({ id }) {
               Software Engineer.
             </h2>
             <h3>
-              <PhoneFilled />
+              <PhoneFilled className={styles.extra} />
               {' '}
               (949) 648-6227
             </h3>
             <h3>
-              <MailFilled />
+              <MailFilled className={styles.extra} />
               {' '}
               ahmeddregia@gmail.com
             </h3>
             <h3>
-              <ShopFilled />
+              <ShopFilled className={styles.extra} />
               {' '}
               ahmed.dregia@fitrecruiters.com
             </h3>

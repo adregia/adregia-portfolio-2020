@@ -1,0 +1,39 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.iconMargin {
+  margin: 0 15px;
+}
+
+.icon:hover {
+  color: #98c178;
+  cursor: pointer;
+}
+
+.icon {
+  color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer {
+    background-color: #2b2b2b;
+    color: white;
+  }
+
+  .icon {
+    color: white;
+  }
+
+  .modal {
+    color: black !important;
+  }
+}

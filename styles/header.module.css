@@ -1,0 +1,10 @@
+.header {
+  background: linear-gradient(to right, #98c178, #85b75f);
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+.menu {
+  text-transform: uppercase;
+}

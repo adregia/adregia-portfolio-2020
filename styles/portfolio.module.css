@@ -1,0 +1,58 @@
+.container {
+  padding: 50px 50px;
+  background-color: black;
+  color: white;
+  min-height: 90vh;
+}
+
+.container > h1 {
+  color: white;
+}
+
+.carouselItem {
+  height: 500px;
+  color: white;
+}
+
+.carouselImageBackground {
+  height: 60%;
+  width: 100%;
+}
+
+.carouselImageBackground > img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.carouselLabel {
+  padding: 5px 10px;
+  color: white;
+}
+
+.carouselLabel > h2 {
+  color: white;
+}
+
+.carouselLabel > h3 {
+  color: white;
+}
+
+.technologiesLabel {
+  color: #cccccc;
+}
+
+@media only screen and (max-width: 600px) {
+  .container > h1 {
+    padding: 0px 50px;
+  }
+
+  .container {
+    padding: 50px 0;
+  }
+
+  .carouselItem {
+    height: 700px;
+  }
+}

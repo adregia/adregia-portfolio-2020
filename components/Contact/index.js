@@ -49,7 +49,7 @@ export default function Contact({ id }) {
         {!loading && !finished ? (
           <Form
             method="POST"
-            accept-charset="UTF-8"
+            acceptCharset="UTF-8"
             labelCol={{ span: 5 }}
             wrapperCol={{ span: 15 }}
             name="basic"

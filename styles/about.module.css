@@ -1,5 +1,4 @@
 .container {
-  border-top-right-radius: 30%;
   padding: 50px 50px;
   background: linear-gradient(to right, #98C178, #85B75F);
   color: white;
@@ -7,6 +6,7 @@
   z-index: 1;
   position: relative;
   height: 90vh;
+  min-height: fit-content;
   max-height: 600px;
   display: flex;
   flex-direction: column;

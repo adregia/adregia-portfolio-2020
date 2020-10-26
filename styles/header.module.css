@@ -5,6 +5,42 @@
   width: 100%;
 }
 
+.dropdown {
+  display: none;
+}
+
 .menu {
   text-transform: uppercase;
+}
+
+.horizontalMenu {
+  display: inline;
+}
+
+@media only screen and (max-width: 640px) {
+  .menu {
+    background-color: white !important;
+  }
+
+  .horizontalMenu {
+    display: none;
+  }
+
+  .menu > li {
+    color: black !important;
+  }
+
+  .dropdown {
+    display: inline;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .menu {
+      background-color: black !important;
+    }
+
+    .menu > li {
+      color: white !important;
+    }
+  }
 }
